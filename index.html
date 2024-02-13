@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Hussein Ragab Web Developer</title>
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://kit.fontawesome.com/059351e194.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="banner">
+          
+            <div class="navbar">
+                <img src="logo.png" class="logo">
+
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT ME</a></li>
+                    <li><a href="#">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="content" id="home">
+                <h2>Hello, this is Hussein and I am a</h2>
+                <h1>Frontend Developer</h1>
+                <div>
+                    <button type="button" class="button"><span></span>
+                        PORTFOLIO</button>
+                    <button type="button" class="button"><span></span>
+                        CONTACT ME</button>
+                </div>
+            </div>  
+        </div>
+        <div class="about" id="about">
+            <h2>ABOUT ME</h2>
+            <hr><br>
+            <ul>
+                <li>My aim is to contribute in responsive web designs</li>
+                <li>Experience in coding using HTML and CSS</li>
+                <li>Certified by freecodecamp</li>
+                <li>Eager to learn javascript and frameworks</li>
+            </ul>
+        </div>
+
+        <div class="form">
+        <br>
+        <h2 class="message-title">LEAVE A MESSAGE</h2>
+        <hr>
+        <br>
+        <br>
+        <form action="/leave-a-comment" id="contact" class="contact">
+            <div class="input-group">
+            <h4><i class="fa-solid fa-user"></i> Your Name</h4>
+            <input type="text" name="name" id="name" placeholder="Your Name" aria-colspan="50" required><br>
+        </div>
+            <br>
+            <div class="input-group">
+            <h4><i class="fa-solid fa-envelope"></i> Your Email</h4>
+            <input type="email" name="email" id="email" placeholder="Your Email" required> <br>
+        </div>
+            <br>
+            <div class="input-group">
+            <h4><i class="fa-solid fa-message"></i> Your Message</h4>
+            <textarea rows="10" cols="50" class="comment" placeholder=" Leave a Message" required></textarea> <br>
+        </div>
+            <button type="submit" class="button"><span></span>SUBMIT</button>
+        </form>
+    </div>
+        </body>
+    
+</html>
